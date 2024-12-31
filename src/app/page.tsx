@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="w-full font-sans">
       <div
-        className="mx-auto px-[2rem] flex flex-col items-center justify-center py-[5rem] h-[600px] 2xl:w-[1500px] bg-cover bg-center"
+        className="mx-auto px-[2rem] flex flex-col items-center justify-center py-[5rem] h-[800px] 2xl:w-[1500px] bg-cover bg-center"
         style={{ backgroundImage: "url('/assets/bg-1.jpg')" }}
       >
         <h1 className="text-[48px] my-[0.5rem] font-bold text-center text-white">
