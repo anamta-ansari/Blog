@@ -7,7 +7,6 @@ export default function Home() {
     <div className="w-full font-sans">
       <div
         className="mx-auto px-[2rem] flex flex-col items-center justify-center py-[5rem] h-[800px] 2xl:w-[1500px] "
-        }
       >
         <h1 className="text-[48px] my-[0.5rem] font-bold text-center text-black">
           Exploring the Future of Innovation and Technology
