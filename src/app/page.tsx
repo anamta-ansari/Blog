@@ -7,18 +7,18 @@ export default function Home() {
     <div className="w-full font-sans">
       <div
         className="mx-auto px-[2rem] flex flex-col items-center justify-center py-[5rem] h-[800px] 2xl:w-[1500px] bg-cover bg-center"
-        style={{ backgroundImage: "url('/assets/bg-1.jpg')" }}
+        }
       >
-        <h1 className="text-[48px] my-[0.5rem] font-bold text-center text-white">
+        <h1 className="text-[48px] my-[0.5rem] font-bold text-center text-black">
           Exploring the Future of Innovation and Technology
         </h1>
-        <p className="text-[20px] mb-[2rem] text-center text-white">
+        <p className="text-[20px] mb-[2rem] text-center text-black">
           Stay updated with the latest breakthroughs, trends, and insights in the
           world of technology. From AI and blockchain to gadgets and software, we
           cover the stories shaping tomorrow&apos;s digital landscape.
         </p>
         <Link href="/About" passHref>
-          <button className="w-[10rem] h-[4rem] text-white border rounded hover:bg-black">
+          <button className="w-[10rem] h-[4rem] text-white border rounded bg-black">
             Read More
           </button>
         </Link>
